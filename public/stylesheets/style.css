@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 body {
   padding: 50px;
@@ -8,5 +10,14 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+#IndexBackground {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.m-40 {
+  margin: 80px 80px 80px 80px;
 }

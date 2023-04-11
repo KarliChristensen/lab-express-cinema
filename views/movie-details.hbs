@@ -1,0 +1,23 @@
+<div class="w-full md:w-1/3 px-4 m-40">
+  <div class="rounded-lg overflow-hidden shadow-lg">
+    <img
+      class="w-full h-56 object-cover"
+      src="{{movie.image}}"
+      alt="{{movie.Title}}"
+    />
+    <div class="px-6 py-4">
+      <h5 class="text-center text-xl font-bold mb-2">{{movie.title}}</h5>
+      <h5
+        class="text-center text-xl font-bold mb-2"
+      >{{movie.director}}</h5>
+      <h5 class="text-center text-xl font-bold mb-2">{{movie.stars}}</h5>
+      <h5
+        class="text-center text-xl font-bold mb-2"
+      >{{movie.description}}</h5>
+      <h5
+        class="text-center text-xl font-bold mb-2"
+      >{{movie.showtimes}}</h5>
+      <a href="/movies/{{movie._id}}">See more</a>
+    </div>
+  </div>
+</div>
